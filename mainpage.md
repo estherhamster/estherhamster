@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      background-color: #ecc5cc;
+      font-family: Futura, Helvetica, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-top: 20px;
+    }
+
+    .logo-main {
+      width: 180px;
+      margin-bottom: 20px;
+    }
+
+    .section-logos img {
+      width: 200px;
+      margin: 20px;
+      border-radius: 12px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .section-logos img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Top Dashing Diva logo -->
+  <img src="logo.png" alt="Dashing Diva Logo" class="logo-main" />
+
+  <h1> AI IMPLEMENTATION to Creative </h1>
+  <p>Choose your section below </p>
+
+  <!-- Replace buttons with clickable logos -->
+  <div class="section-logos">
+    <a href="glaze.html">
+      <img src="glaze.png" alt="Glaze Logo" />
+    </a>
+    <a href="gloss.html">
+      <img src="gloss.png" alt="Gloss Logo" />
+    </a>
+  </div>
+
+  <hr style="margin-top:40px; width:50%;">
+  <p>Creative Team</p>
+</body>
+</html>
