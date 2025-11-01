@@ -1,4 +1,3 @@
-## Hi there 👋
 # ✨ Welcome to Esther's Site
 
 Choose your section below 👇
