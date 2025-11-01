@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="Dashing Diva Logo" width="200" />
+</p>
+
 # AI IMPLEMENTATION FRAME WORK
 
 Choose your section below 👇
