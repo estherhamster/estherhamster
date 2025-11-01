@@ -36,7 +36,6 @@
 </head>
 
 <body>
-  <!-- Top Dashing Diva logo -->
   <img src="logo.png" alt="Dashing Diva Logo" class="logo-main" />
 
   <h1> AI IMPLEMENTATION to Creative </h1>
