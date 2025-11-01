@@ -1,16 +1,17 @@
 ## Hi there 👋
+# ✨ Welcome to Esther's Site
 
-<!--
-**estherhamster/estherhamster** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Choose your section below 👇
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="glaze.html" style="text-decoration:none;">
+    <button style="padding:10px 20px; font-size:16px; border-radius:25px; border:1px solid #000; background-color:#fff; cursor:pointer;">Glaze</button>
+  </a>
+  <a href="gloss.html" style="text-decoration:none; margin-left:10px;">
+    <button style="padding:10px 20px; font-size:16px; border-radius:25px; border:1px solid #000; background-color:#fff; cursor:pointer;">Gloss</button>
+  </a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+Made with 💅 by Esther
