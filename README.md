@@ -40,7 +40,7 @@
 </head>
 
 <body>
-  <img src="dashingdiva-logo.png" alt="Dashing Diva Logo" />
+  <img src="logo.png" alt="Dashing Diva Logo" />
   <h1>💅 AI IMPLEMENTATION FRAMEWORK</h1>
 
   <p>Choose your section below 👇</p>
