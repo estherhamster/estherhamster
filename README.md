@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <style>
     body {
-      background-color: #f9f2f5; /* soft pink-beige */
+      background-color: #ecc5cc;
       font-family: Futura, Helvetica, sans-serif;
       text-align: center;
       margin: 0;
