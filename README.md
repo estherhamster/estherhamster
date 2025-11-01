@@ -41,15 +41,15 @@
 
 <body>
   <img src="logo.png" alt="Dashing Diva Logo" />
-  <h1>💅 AI IMPLEMENTATION FRAMEWORK</h1>
+  <h1> AI IMPLEMENTATION to Creative Team </h1>
 
-  <p>Choose your section below 👇</p>
+  <p>Choose your section below </p>
 
   <a href="glaze.html"><button>Glaze</button></a>
   <a href="gloss.html"><button>Gloss</button></a>
 
   <hr style="margin-top:40px; width:50%;">
 
-  <p>Creative Team</p>
+  <p>2025 Creative Team</p>
 </body>
 </html>
