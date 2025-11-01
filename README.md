@@ -1,20 +1,55 @@
-<p align="center">
-  <img src="logo.png" alt="Dashing Diva Logo" width="200" />
-</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      background-color: #f9f2f5; /* soft pink-beige */
+      font-family: Futura, Helvetica, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 40px;
+    }
 
-# AI IMPLEMENTATION FRAME WORK
+    h1 {
+      font-size: 2em;
+      margin-top: 20px;
+    }
 
-Choose your section below 👇
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 25px;
+      border: 1px solid #000;
+      background-color: #fff;
+      cursor: pointer;
+      margin: 10px;
+      transition: 0.3s;
+    }
 
-<p align="center">
-  <a href="glaze.html" style="text-decoration:none;">
-    <button style="padding:10px 20px; font-size:16px; border-radius:25px; border:1px solid #000; background-color:#fff; cursor:pointer;">Glaze</button>
-  </a>
-  <a href="gloss.html" style="text-decoration:none; margin-left:10px;">
-    <button style="padding:10px 20px; font-size:16px; border-radius:25px; border:1px solid #000; background-color:#fff; cursor:pointer;">Gloss</button>
-  </a>
-</p>
+    button:hover {
+      background-color: #000;
+      color: #fff;
+    }
 
----
+    img {
+      width: 180px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
 
-Creative Team
+<body>
+  <img src="dashingdiva-logo.png" alt="Dashing Diva Logo" />
+  <h1>💅 AI IMPLEMENTATION FRAMEWORK</h1>
+
+  <p>Choose your section below 👇</p>
+
+  <a href="glaze.html"><button>Glaze</button></a>
+  <a href="gloss.html"><button>Gloss</button></a>
+
+  <hr style="margin-top:40px; width:50%;">
+
+  <p>Creative Team</p>
+</body>
+</html>
