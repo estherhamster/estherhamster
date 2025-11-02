@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Glaze</title>
+  <title>One Gel Magnetic Gallery</title>
   <style>
     body {
       font-family: Futura, Helvetica, sans-serif;
@@ -25,11 +25,62 @@
       background-color: #000;
       color: #fff;
     }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      justify-items: center;
+      padding : 0 40px;
+    }
+
+    .item {
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0.1);
+      padding : 20px;
+      transition: transform 0.3s, box-shadow 0.3s
+    }
+
+    .item:hover {
+      transform : scale(1.03);
+      box-shadow: 0 6px 16px rgba(0,0,0.2);
+    }
+
+    .item img {
+      width: 100%;
+      boder-radius: 15px;
+      cursor: pointer;
+    }
+
+    .item a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      display: block;
+      margin-top: 12px;
+      transitio: color 0.3s;
+    }
+
+    .item a: hover {
+      color: #d18ba2;
+    }
+     
   </style>
 </head>
 <body>
   <h1>One Gel Magnetic Image Generation Test</h1>
-  <p>Welcome to the One Gel Magnetic section.</p>
+  <p>Product Gallery</p>
+
+  <div class="gallery">
+    <div class="item>
+      <a href="GOM01.html"><img src="DD_GOM01_Feather_Swatch.jpg" alt="Product 1"></a>
+      <a href="GOM01.html">Feather</a>
+    </div>
+
+
+
+
+  
   <a href="index.html">⬅ Back to Home</a>
 </body>
 </html>
