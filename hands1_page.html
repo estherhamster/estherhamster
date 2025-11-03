@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Simple Site</title>
+  <style>
+    body {
+      font-family: Futura, sans-serif;
+      background-color: #ecc5cc;
+      color: #000;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    h1 { color: #000; }
+
+    a {
+      color: #303030;
+      text-decoration: underline;
+    }
+
+    img {
+      display: block;
+      margin: 10px auto;
+      width: 300px;
+      transition: 0.3s ease;
+    }
+
+    input {
+      padding: 8px 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      width: 120px;
+      text-align: center;
+    }
+
+    button {
+      padding: 8px 15px;
+      font-family: Futura, sans-serif;
+      font-size: 15px;
+      background-color: #a85163;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+
+    button:hover {
+      background-color: #333;
+
+    }
+
+  </style>
+</head>
+<body>
+  <a href="https://dashingdiva.com" target="_blank">Dashing Diva Website</a>
+  <h1>DD AI TESTING</h1>
+  <p>Enter a color name and click CHANGE</p>
+
+  <img id="nailImage" src="attention.jpg" alt="Nail Design">
+
+  <div>
+    <input type="text" id="colorInput" placeholder="Birdie">
+    <button onclick="changeColor()">CHANGE</button>
+  </div>
+
+  <p>Creative Team</p>
+
+  <script>
+    const validImages = ["attention", "attitude", "birdie", "magenta", "manhunt"];
+
+    function changeColor() {
+      const input = document.getElementById("colorInput").value.trim().toLowerCase();
+      const image = document.getElementById("nailImage");
+
+      if (validImages.includes(input)) {
+        image.src = input + ".jpg";
+      } else {
+        alert("That SKU does not exist");
+      }
+    }
+  </script>
+</body>
+</html>
